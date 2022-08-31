@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.App{
+background-color: aqua;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+.picPostion{
+  margin-top: 10px;
+}
+.avatar{
+  background-color:whitesmoke;
+  height: 100vh;
+}
+h1{ 
+  height:50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr{
+  width:70%;
+  
+}
+.dash-order{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.dash-order>p{
+  color: blueviolet;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left{
+  float: left;
+  width: 15%;
+  
+}
+.right{
+  float: right;
+  width: 85%;
+  height: 15vh;
+  
+}
+TableRow{
+  background-color:aqua ;
+}
+label{
+ 
+  font-size: small;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link{
+
+
+padding-left: 70%;
+width: 100%;
+  
+
+}
+.link>a{
   color: white;
-}
+  text-decoration: none;
+  float: left;
+  
+ }
+ .Table{
+  border:20px solid white;
 
-.App-link {
-  color: #61dafb;
-}
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appstyle{
+  margin-left: 20px;
+  margin-top: 2px;
+  
 }
